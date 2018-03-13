@@ -1,46 +1,55 @@
-<!DOCTYPE html>
-
-<html lang="en">
-<head>
-    <meta charset="utf-8" >
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-
-<style>
- body{
-	margin:0;
-	background-color:white;
+body,
+html {
+    width: 100%;
+    height: 100%;
 }
 
-.container-fluid{
-	background-color:black;
-	height:120px; 
-}
-li{
-   margin-left:30px;
-   margin-right:30px;
-   font-size:x-large;
-   color:white;
+body{
+    padding-top:100px;
 }
 
-</style>
-<body bgcolor="red">
-   
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="index.html"><img src="logo.png" width="auto" height="110px"></a>
-    </div>
-    <ul class="nav navbar-nav" style="float:right;margin-top:50px;color:white;">
-      <li  style="color:white;><a href="index.html">Home</a></li>
-      <li  style="color:white;><a href="#">About</a></li>
-      <li  style="color:white;><a href="#">Districts</a></li>
-      <li  style="color:white;><a href="#">Packages</a></li>
-    </ul>
-  </div>
-</nav>
+#item_list {
+    padding-top: 50px;
+}
 
-</body>
-</html>
+/*This code ensures that when we navigate to a particular section of a page, the section does not get lost behind the header*/
+
+
+
+footer {
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+
+.red{
+    color:red;
+}
+
+.container image
+
+@media(max-width:768px) {
+    #banner_content {
+        padding-bottom: 15%;
+    }
+    footer{
+        text-align:left;
+    }
+}
+
+.remove_item_link{
+    color:#0000ff;
+}
